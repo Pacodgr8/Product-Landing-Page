@@ -36,6 +36,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header div img{
+    width: 100px;
+    height: auto;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,8 @@ header nav ul li a {
 }
 
 .hero-text {
-    max-width: 50%;
+    width: 50%;
+    height: auto;
 }
 
 .hero-text h1 {
@@ -68,14 +74,6 @@ header nav ul li a {
 
 .hero-image {
     max-width: 40%;
-}
-
-.hero-image .image-placeholder {
-    background-color: #555;
-    color: white;
-    padding: 3rem;
-    text-align: center;
-    border-radius: 4px;
 }
 
 .info {
